@@ -1,0 +1,139 @@
+Excercise 1
+
+Question No 1-4
+
+show databases;
+
+create database excercise;
+
+use excercise;
+
+create table SEMP
+(
+EMPNO CHAR(4),
+EMPNAME CHAR(20),
+BASIC FLOAT(9,2),
+DEPTNO CHAR(2),
+DEPTHEAD CHAR(4)
+);
+
+select * from SEMP;
+
+
+create table SDEPT
+(
+DEPTNO CHAR(2),
+DEPTNAME CHAR(15)
+);
+
+select * from SDEPT;
+
+insert into SDEPT
+values ('10','Development'),
+	   ('20','Training');
+select * from SDEPT;
+insert into SEMP
+values ('0001','SUNIL',6000,'10',NULL),
+       ('0002','HIREN',8000,'20',NULL),
+       ('0003','ALI',4000,'10','0001'),
+       ('0004','GEORGE',6000,NULL,'0002');
+
+select * from SEMP;
+
+create table SUPPLIER
+(
+`S#` int (4),
+Sname CHAR (20),
+Status int (4),
+City CHAR (20)
+);
+
+insert into SUPPLIER
+values (1,'ABB',10,'Mumbai'),
+	   (2,'Honeywell',20,'Delhi'),
+       (3,'Technimount',30,'Calcutta');
+
+select * from SUPPLIER;
+
+create table PARTS
+(
+`P#` char (4),
+Pname char (20),
+Color char (10),
+Weight float (5,2),
+City char (20)
+);
+
+insert into PARTS
+values ('P1','Gear','Black',50.23,'Kalyan'),
+       ('P2','Clutch','Red',65.37,'Kharghar'),
+       ('P3','Break','Yellow',54.87,'Juhu');
+
+select * from PARTS;
+
+
+create table PROJECTS
+(
+`J#` char (4),
+Jname char (20),
+City char (20)
+);
+insert into PROJECTS
+values ('J1','Audi','London'),
+        ('J2','BMW','Paris'),
+        ('J3','Ferrari','Japan');
+
+select * from PROJECTS;
+
+Question no 5 onwards
+
+select * from PROJECTS;
+
+select * from SUPPLIER;
+
+select `S#`,Sname from SUPPLIER;
+
+select * from PARTS;
+
+select Pname,Color from PARTS where City='Kalyan';
+
+select * from SUPPLIER where City='Mumbai';
+
+select * from SUPPLIER where City='Mumbai' or City='Delhi';
+
+select * from PROJECTS;
+
+select * from PROJECTS where City='London';
+
+select * from PARTS;
+
+select * from PARTS where Weight>=50 and Weight<=60;
+
+select * from SUPPLIER;
+
+select * from SUPPLIER where status>=20;
+
+select * from SUPPLIER where City<>'Delhi';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
