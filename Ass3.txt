@@ -1,0 +1,8 @@
+q1)
+Yes
+Deafault date data type is 'yyyy-mm-dd'
+range is 1st jan 1000 AD to 31st dec 9999AD
+
+
+q2)
+For insert DML is used--- Data manuplation language
