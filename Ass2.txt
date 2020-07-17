@@ -1,0 +1,12 @@
+q1)
+primary key is use to identify unique values in the table.so in customer table customer ID is the primary key
+
+q2)
+
+
+q3)
+row--Tuple,Entity,Opportunity
+column--attribute,method
+
+q4)
+While saving the data in table i.e.rows are save in memory location as per the availability of space so it is not possible to see first five rows in table
