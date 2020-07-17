@@ -1,0 +1,13 @@
+Assignment no 5
+
+select * from ORDERS where amt>1000;
+
+
+select Sname,City from SALESPEOPLE where City='London' or Comm =10.0;
+
+
+select * from CUSTOMERS where Rating>=100 and City<>'Rome';
+
+Error
+
+Select * From Salespeople where (comm > .12 or comm <.14);
