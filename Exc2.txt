@@ -1,0 +1,26 @@
+Excercise 2
+
+Q1)
+show tables;
+
+select * from supplier;
+
+select * from supplier order by City desc;
+
+Q2)
+select Pname,City from parts order by City;
+
+Q3)
+select * from supplier where status >10 and status <30;
+
+Q4)
+select * from parts where Weight not between 10 and 15;
+
+Q5)
+select * from parts where Pname like 'G%';
+
+Q6)
+select * from supplier where City like 'M%';
+
+Q7)
+select * from projects where Jname like '_u%';

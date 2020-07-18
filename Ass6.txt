@@ -1,0 +1,31 @@
+Assignment no 6
+
+Q1)
+show tables;
+
+select * from customers;
+
+select * from orders;
+
+select * from orders where odate like '1990-10-03';
+select * from orders where odate like '1990-10-04';
+
+Q2)
+show tables;
+
+select * from customers;
+
+select * from salespeople;
+
+select * from customers where snum=1001 or snum=1004;
+
+Q3)
+select * from customers;
+
+select * from customers where Cname >='A' and Cname <='G';
+
+Q4)
+select * from customers where Cname like 'C%';
+
+Q5)
+select * from orders where Amt is not null and Amt!=0;
