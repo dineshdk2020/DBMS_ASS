@@ -1,0 +1,34 @@
+Excercise no 4
+
+Q1)
+select min(status) from supplier;
+
+Q2)
+select max(weight) from parts;
+
+Q3)
+select avg(weight) from parts;
+
+Q4)
+select sum(`P#`) from parts where `P#`='p1';
+
+Q5)
+select sum(`p#`) from parts group by `p#`;
+
+Q6)
+select avg(`p#`) from parts group by `p#`;
+
+Q7)
+select max(`P#`) from parts where `P#`>800;
+
+Q8)
+select status,count(sname) from supplier group by status;
+
+Q9)
+select count(Jname),city from projects group by city;
+
+Q10)
+count(status) null values are not counted and count(*) null values are counted but in our case output is same
+
+Q11)
+select status,count(city) from supplier group by status;

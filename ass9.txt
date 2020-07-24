@@ -1,0 +1,17 @@
+Assignment no 9
+
+Q1)select onum,cname from orders,customers where customers.cnum=orders.cnum;
+
+Q2)
+select cname,sname,onum from orders,customers,salespeople where 
+orders.snum = customers.snum and
+orders.snum=salespeople.snum;
+
+Q3)
+select cname,sname,comm from customers,salespeople where 
+customers.snum=salespeople.snum and comm>.12;
+
+Q4)
+select amt,comm from salespeople,orders,customers
+where customers.snum=orders.snum and
+salespeople.snum=orders.snum and rating>100;

@@ -1,0 +1,16 @@
+Assignment no 8
+
+Q1)
+select Onum,Snum,Amt,(Amt*12)/100 commission from orders;
+
+Q2)
+Select city, rating,
+max(rating)
+from customers
+group by city;
+
+Q3)
+select rating,cname,snum from customers order by rating desc;
+
+Q4)
+select count(odate),odate from orders group by odate order by count(odate);

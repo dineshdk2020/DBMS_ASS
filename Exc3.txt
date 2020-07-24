@@ -1,0 +1,31 @@
+Excercise no 3
+
+Q1)
+Select CONCAT(UPPER(SUBSTRING(Sname,1,1)),LOWER(SUBSTRING(Sname,2))) from supplier;
+
+Q2)
+select UPPER (sname) from supplier;
+
+Q3)
+select LOWER (sname) from supplier;
+
+Q4)
+select lpad (Sname,25,' ') from supplier;
+
+Q5)
+select replace (Sname,'we','ew') from supplier;
+
+Q6)
+select translate (Sname,'la','ro') from supplier;
+
+Q7)
+select length(Sname) from supplier;
+
+Q8)
+select * from supplier where soundex(Sname)=soundex('BLOKE');
+
+Q9)
+select Sname,Status from supplier;
+
+Q10)
+select dayname(sysdate()) from dual;

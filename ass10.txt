@@ -1,0 +1,9 @@
+Assignment no 10
+
+Q1)
+select a.sname,b.sname,a.city from salespeople a,salespeople b
+where a.city=b.city and a.sname < b.sname;
+
+Q2)
+select cname,city from customers
+where rating=(select rating from customers where cname ='hoffman');
