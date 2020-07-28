@@ -1,0 +1,29 @@
+Assignment no 15
+
+Q1)
+create table multicast as
+select * from salespeople
+where Snum in
+(select Snum from customers 
+group by Snum
+having count(Snum)>1);
+select * from multicast;
+
+
+Q2)
+insert into customers
+values (2020,'Dinesh','Kalyan',600,1000);
+delete customers
+where cnum=any
+(select cnum from orders 
+where cnum not in 
+(select cnum from customers));
+
+Q3)
+select * from salespeople;
+update salespeople 
+set comm=comm*1.20
+where snum in 
+(select snum from orders 
+where  amt>300);
+select * from salespeople;

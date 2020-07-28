@@ -1,0 +1,27 @@
+Assignment no 13
+
+Q1)
+
+select cname,city,rating from customers
+where rating>200
+union 
+select cname,city,rating from customers
+where rating<=200;
+
+
+Q2)
+select sname,snum from salespeople
+join customers using (snum)
+where snum in
+(select snum from customers
+group by snum
+having count(snum>1))
+order by sname,cname;
+
+Q3)
+select snum from salespeople where city='sanjose'
+union
+select distinct snum from orders
+where snum in
+(select snum from orders
+where odate like '03-OCT-%');

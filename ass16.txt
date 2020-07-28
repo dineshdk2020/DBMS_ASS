@@ -1,0 +1,15 @@
+Assignment no 16
+
+Q1)
+create index d_order on orders(odate);
+
+Q2)
+describe orders;
+alter table orders modify onum CONSTRAINT o_pk primary key;
+describe orders;
+
+Q3)
+create index I_date on orders(odate);
+
+Q4)
+alter table customers modify rating primary key;

@@ -1,0 +1,12 @@
+Assignment no 17
+
+Q1)
+create table orders1 ( onum number(4),cnum number(4),sname number(4),odate date not null,
+constraint p_k_1 primary key(onum,cnum,sname));
+
+
+Q2)
+create table salespeople1(comm number(3) default 10,snum number(4) PRIMARY KEY ,sname varchar(10)
+check(substr(upper(sname),1,1) between 'A' and 'B'));
+insert into salespeople1
+values (20.2020,'ABC')
