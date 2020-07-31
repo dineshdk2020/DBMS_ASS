@@ -1,0 +1,30 @@
+ASSIGNMENT-19
+
+
+
+Q1)
+create view c_view as
+select * from customers where rating=(select max(rating) from customers);
+
+
+
+Q2)
+create view sales_view_no as 
+select count(*) as 'Salespeople Count', city from salespeople group by city;
+
+
+
+
+Q3)
+
+create view avgtot_view as 
+select sname, sum(amt), avg(amt) from orders, salespeople 
+where salespeople.snum=orders.snum group by orders.snum;
+
+
+
+
+Q4)
+create view mcust_view as select salespeople.snum, sname from salespeople, orders 
+where orders.snum=salespeople.snum group by orders.snum having count(*)>1;
+----------------------------------------------------------
