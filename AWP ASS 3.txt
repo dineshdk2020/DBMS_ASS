@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Mania</title>
+    <style>
+        html,
+        body{
+            margin:0;
+        }
+        .myclass{
+            height: 100vh;
+            background: url("food3.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <!--heder part-->
+   <div class="myclass" style="display: flex; flex-direction: column;">
+   <div style=" flex: 1;color: rgb(255, 255, 255);font-size: 45px;display: flex;justify-content: space-between;">
+    <div style="padding: 16px;">
+    <div> Get the App</div>
+    
+    <div style="display: flex;justify-content:center; padding: 16px;">
+    <div style="padding: 15px;">Home </div> 
+    <div style="padding: 30px;">Menu </div>
+    <div style="padding: 30px;">Search </div>
+    <div style="padding: 30px;">Offers </div>
+    <div style="padding: 30px;">Help </div>
+    <div style="padding: 30px;">Contact </div>
+    <div style="padding: 30px;">login </div>
+    <div style="padding: 30px;">signup </div>
+    </div>
+    </div>
+    
+    <!--center part-->
+   <div style="flex: 12;color: white;font-size: 45px;display: flex;justify-content: center;">
+    <div style="display: flex;flex-direction:column ;">
+      <div style="font: size 72px;">
+      <div> Food Mania </div>  
+      <div>Hurry up</div>
+    </div>
+
+    </div>
+
+
+
+   <!--Footer part-->
+   <div style="flex: 1;color: white;font-size: 25px;display: flex; justify-content: space-between;align-items: center;">
+   <div>Why r u waiting ? order delicious food</div>
+   <div style="padding: 5px;justify-content:center">
+    <div>"Food for everyone"</div>
+   <div>Call us</div>
+   </div>
+   </div>
+</body>
+</html>

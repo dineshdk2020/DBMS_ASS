@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formatting tags</h1>
+    <h1>bold</h1>
+    <div><b>india</b> is my country</div>
+    <div><strong>india</strong> is my country</div>
+    <div><i>india is my country</i></div>
+    <div><u>india is my country</u></div>
+    <div><strike>china is my country</strike></div>
+    <div><tt>india</tt> is my country</div>
+    <div>x<sup>2</sup>+y<sup>2</sup>=10</div>
+    <div>x<sub>1</sub>+y<sub>1</sub>=10</div>
+</body>
+</html>
+------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>list demo</h1>
+    
+    <h2>ordered list</h2>
+    <ol type="i">
+    <li>C programming</li>
+    <li>java programming</li>
+    <li>advance web programming</li>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+    </ol>
+    <li>angular developement</li>
+    <li>database</li>
+    </ol>
+
+    <h2>unordered list</h2>
+    <ul type="circle">
+    <li>C programming</li>
+    <li>java programming</li>
+    <li>advance web programming</li>
+    <li>angular developement</li>
+    <li>database</li>
+    </ul>
+
+    <h2>definition list</h2>
+<dl>
+<dt>html</dt>
+<dd>hyper text markup language</dd>
+</dl>
+
+<dt>CSS</dt>
+<dd>cascade sheet style</dl>
+
+</body>
+</html>
+----------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>images</h1>
+    <image src="nn.jpg" alt=" ">
+</body>
+</html>
+
+-------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akash</title>
+</head>
+<body>
+    <h1>images</h1>
+    <div>
+    <image width="200px" height="200px" src="nancy.jpg" alt="n1 ">
+    <image width="200px" height="200px" src="nancy1.jpg" alt="nancy momoland">
+    <image width="200px" height="200px" src="n1.jpg" alt="nancy momoland">
+     </div>
+     <div>
+    <image width="200px" height="200px" src="n3.png" alt="nancy momoland">
+    <image width="200px" height="200px" src="n4.png" alt="nancy momoland">
+    <image width="200px" height="200px" src="n5.jpg" alt="nancy momoland">
+    </div>
+    <div>
+    <image width="200px" height="200px" src="n6.jpg" alt="nancy momoland">
+    <image width="200px" height="200px" src="n7.jpg" alt="nancy momoland">
+    <image width="200px" height="200px" src="n8.jpg" alt="nancy momoland">
+    </div>
+    <image width="200px" height="200px" src="n9.jpg" alt="nancy momoland">
+    <image width="200px" height="200px" src="n11.jpg" alt="1">
+    <image width="200px" height="200px" src="n12.jpg" alt="1">
+    <audio controls="controls" src="naudio.mp3"></audio>
+     <video width="200px" height="200px" controls src="nvideo.mp4"></video>
+</body>
+</html>
