@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var commentCounter=1;
+        var likeCounter=1;
+     function commentHere()
+     {
+         const newElement=document.createElement("div");
+         newElement.textContent="usercomment..."+ commentCounter;
+         newElement.style.background="tomato";
+         newElement.style.color="white";
+         newElement.style.margin="4px";
+ 
+         const commentBox=document.querySelector("#commentBox");
+         commentBox.appendChild(newElement);
+         commentCounter++;
+     }
+     function likeHere();
+     {
+         likeCounter++;
+            let btnElement=document.querySelector("#likeid");
+            btnElement.innerHTML="like"+ 2;
+     }
+ 
+ </script>
+    
+</head>
+
+  <body>
+    <div>Someone has posted something!!</div>
+    <button id="likeid" onclick="likeHere()">Like 1</button>
+    <button onclick="commentHere()">Comment Now</button>
+
+    <div id="commentBox">
+      <!-- TO Add New COmment -->
+    </div>
+
+</body>
+
+
+</html>
