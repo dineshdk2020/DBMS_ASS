@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style> html,body
+    {
+       margin: 0;
+    }
+    .container
+    {
+      @media="screen and (max-width: 200px;)
+          
+      }
+    
+    </style>
+   
+</head>
+<body>
+    
+    <div class="container">
+    
+    <div
+    style="
+    height: 100vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    "
+    >
+    <div style="background: yellow;height:65px;position:sticky;flex: 1;">NAVBAR</div>
+    <div style="background: gold;height:200px;text-align: center;flex:2"></display:flex>ABCD</div>
+    <div style="background: tomato;height:200px;text-align: center;flex:2">ABCDE</div>
+    <div style="background: blue;height:200px;text-align: center;flex:2">ABCDEF</div>
+    <div style="background: green;height:200px;text-align: center;flex:2">ABCDEFG</div>
+    </div>
+    <div style="background: silver;flex:1">FOOTER</div>
+</div>
+</div>
+</body>
+</html>

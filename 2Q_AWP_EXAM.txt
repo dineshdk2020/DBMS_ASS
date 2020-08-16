@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER FORM</title>
+    <script>
+        var commentCounter=1;
+        var likeCounter=1;
+        function commentHere()
+        {
+            const newElement=document.createElement("div");
+            newElement.textContent="user comment..."+commentCounter;
+            newElement.style.background="tomato";
+            newElement.style.color="white";
+            newElement.style.margine="4px";
+            const commentBox=document.querySelector("#commentBox");
+            commentBox.appendChild(newElement);
+            commentCounter++;
+        }
+        function likeHere()
+        {
+            likeCounter++;
+            let btnElement=document.querySelector("#btnid");
+            btnElement.innerHTML="Like"+likeCounter;
+        }
+        function emailHere()
+        {
+            const userEmail=document.querySelector("#emailid").value;
+            newElement.textContent="email";
+        }
+        function typeHere()
+        {
+            const newElement=document.createElement("div");
+            const userComment=document.querySelector("#inputid").value;
+            newElement.textContent="comment";
+        }
+    </script>
+</head>
+<body>
+    <div>SIMPLE FORM</div>
+    <input type="text" onclick="commentHere()" placeholder="Enter username">USERNAME</input>
+    <br>
+    <input type="text" id="btnid" onclick="likeHere()" placeholder="Enter password">PASSWORD</input>
+    <br>
+    <input type="text" id="emailid" onclick="emailHere()" placeholder="Enter Email">EMAIL</input>
+    <br>
+    <div id="commentBox"></div>
+    <div style="margin-top: 4px;
+               margin-bottom: 4px;
+               "
+    >
+    <input
+    onclick="typeHere()";
+    class="temp";
+    type="text";
+    id="inputid";
+    placeholder="Type here">
+    <button id="btn">SUBMIT</button>
+</body>
+</html>
